@@ -1,7 +1,7 @@
 import React from "react";
-import { SideInput } from "../side-input/side-input.js";
+import { SideInput } from "../side-input/side-input";
 import { ResultPanel } from "../result-panel/result-panel";
-import { calculate, TriangleType } from "../calculator/calculator.js";
+import { calculate, TriangleType } from "../calculator/calculator";
 
 export class TriangleForm extends React.PureComponent {
   constructor(props) {
@@ -18,7 +18,6 @@ export class TriangleForm extends React.PureComponent {
   }
 
   handleChange(event) {
-    console.log("handle change");
     const index = event.target.name;
     const value = parseFloat(event.target.value);
     const isValid = Boolean(value) && !Number.isNaN(value) && value > 0;
