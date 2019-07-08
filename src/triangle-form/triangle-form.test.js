@@ -1,6 +1,6 @@
 import React from "react";
 import { TriangleForm } from "./triangle-form";
-import { render, cleanup, fireEvent } from "react-testing-library";
+import { render, cleanup, fireEvent } from "@testing-library/react";
 
 afterEach(cleanup);
 
