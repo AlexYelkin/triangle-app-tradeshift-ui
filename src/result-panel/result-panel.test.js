@@ -1,6 +1,6 @@
 import React from "react";
 import { ResultPanel } from "./result-panel";
-import { render, cleanup } from "react-testing-library";
+import { render, cleanup } from "@testing-library/react";
 import { TriangleType } from "../calculator/calculator";
 
 afterEach(cleanup);

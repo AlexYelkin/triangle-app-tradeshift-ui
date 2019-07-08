@@ -1,6 +1,6 @@
 import React from "react";
 import { SideInput } from "./side-input";
-import { render, cleanup, fireEvent } from "react-testing-library";
+import { render, cleanup, fireEvent } from "@testing-library/react";
 
 afterEach(cleanup);
 
